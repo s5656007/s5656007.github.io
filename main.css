@@ -180,7 +180,7 @@ h1{
 	position: absolute;
     top: 18px;
     right: 0px;
-    z-index: 10000;
+    z-index: 100;
 }
 .main_header .best_price strong{
 	color: #ffffff;

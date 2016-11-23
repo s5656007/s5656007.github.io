@@ -14,5 +14,8 @@
  }
  }
  });
-  });
-$(".popup_c").magnificPopup();
+ 
+$(".popup_c").magnificPopup({
+        type: 'inline'
+    });
+ });
