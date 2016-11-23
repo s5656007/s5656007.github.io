@@ -54,7 +54,7 @@
 								<h3 class="callback_header">
 									Закажи бесплатный обратный звонок
 								</h3>
-								<a href="#" class="button_callback">обратный звонок</a>
+								<a href="#hidden_form" class="button_callback popup_c">обратный звонок</a>
 							</div>
 						</div>
 					</div>
@@ -115,7 +115,7 @@
 						</div>
 						<div class="col-md-6 col-sm-12 col-xs-12">
 							<div class="button_wraper">
-								<a href="#" class="button">заказать</a>
+								<a href="#hidden_form" class="button popup_c">заказать</a>
 							</div>
 						</div>
 					</div>	
@@ -153,7 +153,7 @@
 					<div class="f_buy">
 						<h2 class="h_buy">ЗАКАЖИ ПРЯМО СЕЙЧАС!</h2>
 						<span></span>
-						<a href="#" class="button">заказать</a>
+						<a href="#hidden_form" class="button popup_c">заказать</a>
 					</div>
 				</div>
 			</div>
@@ -217,7 +217,7 @@
 								</div>
 									<div class="col-md-12">
 										<div class="reas_button">		
-											<a href="#" class="button">заказать</a>
+											<a href="#hidden_form" class="button popup_c">заказать</a>
 									</div>
 						</div>
 					</div>
@@ -339,7 +339,7 @@
 							</div>
 						</div>
 						<div class="button_wraper">
-								<a href="#" class="button">заказать</a>
+								<a href="#hidden_form" class="button popup_c">заказать</a>
 						</div>
 					</div>
 					
@@ -500,7 +500,7 @@
 						</div>
 						</div>
 						<div class="button_wraper">
-								<a href="#" class="button">заказать</a>
+								<a href="#hidden_form" class="button popup_c">заказать</a>
 						</div>
 					</div>
 				</div>
@@ -526,7 +526,7 @@
 								<h3 class="callback_header">
 									Остались вопросы?<br>Закажи бесплатный обратный звонок
 								</h3>
-								<a href="#" class="button_callback">обратный звонок</a>
+								<a href="#hidden_form" class="button_callback popup_c">обратный звонок</a>
 							</div>
 						</div>
 				</div>
@@ -534,19 +534,22 @@
 		</div>
 	</footer>
 	<form action="" id="hidden_form" class="col-md-4">
-		<h2>сВЯЗАТЬСЯ С НАМИ</h2>
+		<h2>CВЯЗАТЬСЯ С НАМИ</h2>
 		<label>
 			<span>Ваше имя:</span>
-			<input type="text" name="name">
+			<input type="text" name="name" required="">
 		</label>
 		<label>
 			<span>Ваш телефон:</span>
 			<input type="text" name="phone" required="">
 		</label>
 		<label>
-			<span>Комментарий</span>
+			<span>Комментарий:</span>
 			<textarea name="" id="" cols="30" rows="10"></textarea>
 		</label>
+		<div class="b_wrap">
+			<button class="button_form">отправить заявку</button>
+		</div>
 	</form>
 	
 
