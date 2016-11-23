@@ -1,5 +1,5 @@
 $(document).ready(function() {
- $('.video').magnificPopup({
+ $('.video_popup').magnificPopup({
  type: 'iframe'})
 
  });
