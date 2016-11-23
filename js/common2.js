@@ -1,4 +1,4 @@
-$(document).ready(function() {
+﻿$(document).ready(function() {
  $('.video_popup').magnificPopup({
  type: 'iframe',
  iframe: {
@@ -15,3 +15,4 @@ $(document).ready(function() {
  }
  });
   });
+$(".popup_c").magnificPopup();
