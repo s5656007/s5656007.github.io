@@ -336,7 +336,11 @@
 		text-align: center;
 	}
 }
-
+@media only screen and (max-width : 601px) {
+	.s_reasons{
+		background-size: cover;
+	}
+}
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 480px) {
 	.main_header  .text_wrapper{
