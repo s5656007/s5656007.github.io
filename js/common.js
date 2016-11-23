@@ -1,14 +1,14 @@
 $(document).ready(function() {
 
 	
-
+	if($(window).width()>600){
 	$.stellar({
 		responsive: true,
 		horizontalOffset: 0,
 	
 		
 	}
-	);
+	);}
 	$(".owl-carousel").owlCarousel({
 						loop: true,
 						responsive:{
