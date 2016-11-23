@@ -971,3 +971,87 @@ footer .footer_callback .button_callback{
 	display: inline-block;
 }
 
+#hidden_form{
+	padding: 20px;
+	border: 4px solid #52A225;
+	background-image: -moz-linear-gradient(bottom, #52A225 0%, #78B800 99.54%, #8cb628 100%);
+	background-image: -o-linear-gradient(bottom, #52A225 0%, #78B800 99.54%, #8cb628 100%);
+	background-image: -webkit-linear-gradient(bottom, #52A225 0%, #78B800 99.54%, #8cb628 100%);
+	background-image: linear-gradient(bottom, #52A225 0%, #78B800 99.54%, #8cb628 100%);
+	border-radius: 10px;
+	float: none;
+	display: none;
+
+	
+}
+#hidden_form h2{
+	color: #fff;
+	font-size: 32px;
+	text-align: center;
+	text-shadow: rgba(0,0,0, 0.5) 1px 0px, rgba(0,0,0, 0.5) 1px 1px, rgba(0,0,0, 0.5) 0px 1px, rgba(0,0,0, 0.5) -1px 1px, rgba(0,0,0, 0.5) -1px 0px, rgba(0,0,0, 0.5) -1px -1px, rgba(0,0,0, 0.5) 0px -1px, rgba(0,0,0, 0.5) 1px -1px;
+	margin-top: 0;
+}
+#hidden_form label{
+	display: block;
+}
+#hidden_form input{
+	display: block;
+	width: 100%;
+	height: 42px;
+	border: 2px solid #52A225;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	-moz-background-clip: padding;
+	-webkit-background-clip: padding-box;
+	background-clip: padding-box;
+	background-color: #fff;
+	padding: 0 5px;
+	margin-bottom: 7px;
+	box-shadow: 0 0 20px rgba(0, 0, 0, 0.06) inset;
+}
+#hidden_form span{
+	color: #fff;
+	font-size: 18px;
+	text-shadow: rgba(0,0,0, 0.5) 1px 0px, rgba(0,0,0, 0.5) 1px 1px, rgba(0,0,0, 0.5) 0px 1px, rgba(0,0,0, 0.5) -1px 1px, rgba(0,0,0, 0.5) -1px 0px, rgba(0,0,0, 0.5) -1px -1px, rgba(0,0,0, 0.5) 0px -1px, rgba(0,0,0, 0.5) 1px -1px;
+	font-weight: normal;
+}
+#hidden_form textarea{
+	width: 100%;
+	resize: none;
+	height: 60px;
+	border: 2px solid #52A225;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	-moz-background-clip: padding;
+	-webkit-background-clip: padding-box;
+	background-clip: padding-box;
+	background-color: #fff;
+	padding: 5px;
+	box-shadow: 0 0 20px rgba(0, 0, 0, 0.06) inset;
+}
+#hidden_form .b_wrap{
+	text-align: center;
+	margin-top: 20px;
+}
+#hidden_form .button_form{
+	border: 2px solid #6fa135;
+	-moz-border-radius: 12px;
+	-webkit-border-radius: 12px;
+	border-radius: 12px;
+	-moz-background-clip: padding;
+	-webkit-background-clip: padding-box;
+	background-clip: padding-box;
+	background-color: #fff;
+	padding: 10px 20px;
+	color: #000;
+	font-size: 25px;
+	font-weight: normal;
+	text-transform: uppercase;
+
+}
+
+#hidden_form input, textarea{
+	outline: none;
+}
