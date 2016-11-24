@@ -16,6 +16,7 @@
  });
  
 $(".popup_c").magnificPopup({
-        type: 'inline'
+    type: 'inline',
+   	focus: '#name'
     });
  });
