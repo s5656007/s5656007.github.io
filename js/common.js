@@ -1,6 +1,6 @@
 $(document).ready(function() {
 
-	 
+	 $('.api-form-phone').mask('71111111111');
 
 	if($(window).width()>600){
 	$.stellar({
