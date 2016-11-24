@@ -1,6 +1,6 @@
 $(document).ready(function() {
 
-	$('.phone').mask('71111111111'); 
+	 
 
 	if($(window).width()>600){
 	$.stellar({
