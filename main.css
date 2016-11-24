@@ -979,8 +979,9 @@ footer .footer_callback .button_callback{
 	background-image: -webkit-linear-gradient(bottom, #52A225 0%, #78B800 99.54%, #8cb628 100%);
 	background-image: linear-gradient(bottom, #52A225 0%, #78B800 99.54%, #8cb628 100%);
 	border-radius: 10px;
-	
+	position: relative;
 	display: none;
+	margin: 20px auto;
 
 	
 }
