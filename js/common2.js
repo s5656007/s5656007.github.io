@@ -17,6 +17,6 @@
  
 $(".popup_c").magnificPopup({
     type: 'inline',
-   	focus: '#name'
+   	focus: '#api-form-name'
     });
  });
