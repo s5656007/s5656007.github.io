@@ -183,7 +183,7 @@ $(window).load(function() {
 	$(".s_works_item").animated("bounceInUp", "fadeOut");
 	$(".s_works h3, .s_works h3").animated("fadeInUp", "fadeOut");
 	$(".s_faq h2").animated("bounceInUp", "fadeOut");
-	$(".s_faq .s_faq_item").animated("flipInY", "fadeOut");
+	/*$(".s_faq .s_faq_item").animated("flipInY", "fadeOut");*/
 	$(".last_sale h2").animated("bounceInUp", "fadeOut");
 	$(".last_sale_img img").animated("fadeInLeftBig", "fadeOut");
 	$(".last-sale_box").animated("fadeInUpBig", "fadeOut");
