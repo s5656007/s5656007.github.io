@@ -29,6 +29,7 @@ $(document).ready(function() {
 			$(this).parent().parent().parent().children(".item_content").slideUp();
 			$(this).parent().children(".item_wrap_af").slideUp();
 			$(".s_faq_wrap").removeClass("active");
+			$(".faq_item_toggle").removeClass("active");
 			if($(window).width()>769){
 				$(".s_faq").css("min-height",h);
 				$(".s_faq .s_faq_bg").css("border-bottom-width", $(".s_faq").height()+20);
@@ -37,7 +38,9 @@ $(document).ready(function() {
 		else{
 			$(".item_content, .item_wrap_af").hide();
 			$(".s_faq_wrap").removeClass("active");
+			$(".faq_item_toggle").removeClass("active");
 			$(this).parent().addClass("active");
+			$(this).addClass("active");
 			$(this).parent().parent().parent().children(".item_content").slideDown();
 			$(this).parent().children(".item_wrap_af").slideDown();
 			if($(window).width()>769){
@@ -99,6 +102,24 @@ $(function() {
 		});
 	};
 
+	/*
+	$("form").submit(function() { //устанавливаем событие отправки для формы с id=form
+            var form_data = $(this).serialize(); //собераем все данные из формы
+            $.ajax({
+            type: "POST", //Метод отправки
+            url: "mail.php", //путь до php фаила отправителя
+            data: form_data,
+            success: function() {
+                   //код в этом блоке выполняется при успешной отправке сообщения
+                   alert("Ваше сообщение отпрвлено!");
+                   setTimeout(function() {
+					var magnificPopup = $.magnificPopup.instance; 
+					magnificPopup.close(); 
+					ths.trigger("reset")}, 1000);
+            }
+    });
+        });*/
+
 	$("form").submit(function(e) {
 		var ths = $(this);
 		e.preventDefault;
@@ -136,5 +157,43 @@ $(window).load(function() {
 
 	$(".loader_inner").fadeOut();
 	$(".loader").delay(400).fadeOut("slow");
+
+});
+
+$(window).load(function() {
+	$(".sk-cube-grid").delay(100).fadeOut();
+	$(".loader").delay(400).fadeOut()
+	$(".main_header .h_logo").animated("fadeInDown", "fadeOut");
+	$(".main_header .callback").animated("fadeInRight", "fadeOut");
+	$(".main_header .header_box").animated("fadeInUpBig", "fadeOut");
+	$(".s_facemask .facemask").animated("slideInUp", "fadeOut");
+	$(".s_facemask .faceresult").animated("slideInUp", "fadeOut");
+	$(".f_item_1, .f_item_2, .f_item_3").animated("zoomIn", "fadeOut");
+	$(".s_facemask  .f_buy").animated("fadeInUp", "fadeOut");
+	$(".s_reasons .h_reasons .h2, .s_reasons .h_reasons .h2_2, .s_reasons .h_reasons h2").animated("slideInUp", "fadeOut");
+	$(".s_reasons .s_reasons_img img").animated("fadeInUpBig", "fadeOut");
+	$(".s_reasons .r_item").animated("fadeInRight", "fadeOut");
+	$(".s_reasons .reas_button").animated("fadeInUp", "fadeOut");
+	$(".s_video h2").animated("fadeInUp", "fadeOut");
+	$(".s_video_items a img").animated("flipInY", "fadeOut");
+	$(".s_feedback .box_s_feedback").animated("bounceInUp", "fadeOut");
+	$(".s_sale .box_s_sale").animated("bounceInLeft", "fadeOut");
+	$(".s_sale .sale_img_wrap img").animated("bounceInRight", "fadeOut");
+	$(".s_works h2").animated("fadeInUp", "fadeOut");
+	$(".s_works_item").animated("bounceInUp", "fadeOut");
+	$(".s_works h3, .s_works h3").animated("fadeInUp", "fadeOut");
+	$(".s_faq h2").animated("bounceInUp", "fadeOut");
+	$(".s_faq .s_faq_item").animated("flipInY", "fadeOut");
+	$(".last_sale h2").animated("bounceInUp", "fadeOut");
+	$(".last_sale_img img").animated("fadeInLeftBig", "fadeOut");
+	$(".last-sale_box").animated("fadeInUpBig", "fadeOut");
+	$(".last_sale .right_img img").animated("fadeInRightBig", "fadeOut");
+	$("footer .footer_logo h2").animated("fadeInUp", "fadeOut");
+	$("footer .footer_callback .wrapper").animated("fadeInRight", "fadeOut");
+
+
+
+
+
 
 });

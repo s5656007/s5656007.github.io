@@ -439,6 +439,12 @@
 	footer .footer_logo h2{
 		font-size: 50px;
 	}
+	#hidden_form h2{
+	    font-size: 26px;
+	}
+	#hidden_form .button_form{
+	    font-size: 21px;
+	}
 
 
 }
